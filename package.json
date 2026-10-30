@@ -1,0 +1,19 @@
+{
+  "name": "cdr-analyzer",
+  "version": "0.1.0",
+  "description": "Importa registros de chamadas (CDR) de PABX, aplica tarifação e gera relatórios de uso e custo.",
+  "type": "module",
+  "bin": {
+    "cdr": "src/cli.js"
+  },
+  "scripts": {
+    "cdr": "node --disable-warning=ExperimentalWarning src/cli.js",
+    "amostra": "node scripts/gerar-amostra.js 2000 > amostra.csv",
+    "test": "node --disable-warning=ExperimentalWarning --test \"test/**/*.test.js\""
+  },
+  "engines": {
+    "node": ">=22.13"
+  },
+  "author": "Filipe Corrales Cardoso",
+  "license": "MIT"
+}
