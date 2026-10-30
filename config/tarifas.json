@@ -1,0 +1,11 @@
+{
+  "local_fixo": 0.10,
+  "local_movel": 0.45,
+  "ddd_fixo": 0.25,
+  "ddd_movel": 0.65,
+  "internacional": 2.50,
+  "gratuita": 0,
+  "emergencia": 0,
+  "interna": 0,
+  "desconhecido": 0
+}
